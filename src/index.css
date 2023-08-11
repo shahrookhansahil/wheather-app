@@ -13,6 +13,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.location p {
+  font-size: 3rem;
+  font-weight: 600;
+}
 p {
   font-size: 1.6rem;
 }
@@ -31,7 +35,7 @@ h1 {
 
 .app:before {
   content: "";
-  background: url("https://t4.ftcdn.net/jpg/02/66/38/15/360_F_266381525_alVrbw15u5EjhIpoqqa1eI5ghSf7hpz7.jpg")
+  background: url("https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80")
     no-repeat center center/cover;
   position: absolute;
   width: 100%;
@@ -78,7 +82,7 @@ h1 {
 
 .app .description {
   position: relative;
-  margin-top: 70px;
+  margin-top: 50px;
   font-weight: bolder;
   font-size: 2rem;
 }
@@ -90,6 +94,7 @@ h1 {
   width: 100%;
   margin: 1rem auto;
   padding: 1rem;
+  margin-bottom: 100px;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.2);
 }
