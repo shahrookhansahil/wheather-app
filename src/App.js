@@ -65,10 +65,10 @@ function App() {
             </div>
           </div>
         )}
+        <p className="credit">
+          Developed by: <b>Sahil Mazari</b>
+        </p>
       </div>
-      <p className="credit">
-        Developed by: <b>Sahil Mazari</b>
-      </p>
     </div>
   );
 }
